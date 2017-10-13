@@ -5,6 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+#Simple loop to create 5 Articles in DB with random titles and bodies
 5.times do 
     Article.create({
         title: Faker::Book.title,
