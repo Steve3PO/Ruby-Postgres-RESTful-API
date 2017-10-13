@@ -14,21 +14,21 @@ Files used:
 
 How to install:
 
-Download
+* Download
 
-Run 'bundle install' to install Faker
+* Run 'bundle install' to install Faker
 
-Modify database.yml with your db username/password info
+* Modify database.yml with your db username/password info
 
-Run 'rake db:create' - to create database
+* Run 'rake db:create' - to create database
 
-Run 'rails db:migrate' - to migrate table
+* Run 'rails db:migrate' - to migrate table
 
-Run 'rails db:seed' - to fill table with random default values
+* Run 'rails db:seed' - to fill table with random default values
 
-Start server with 'rails s'
+* Start server with 'rails s'
 
-Make HTTP requests with tool like Postman to http://localhost:3000/api/v1/articles/
+* Make HTTP requests with tool like Postman to http://localhost:3000/api/v1/articles/
 
 
 To create or update new articles, use content-type json in header
